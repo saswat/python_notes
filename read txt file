@@ -1,0 +1,9 @@
+def test():
+    file = open('university_towns.txt', "r")
+    lines = file.readlines()
+    file.close()
+    
+    for line in lines:
+        print( line )
+        
+test()
